@@ -62,8 +62,8 @@ RUN set -ex \
 # configure: error: Perl module IPC::Run is required to run TAP tests
 		perl-ipc-run \
 #		perl-dev \
-#		python-dev \
-#		python3-dev \
+ 		python-dev \
+ 		python3-dev \
 #		tcl-dev \
 		util-linux-dev \
 		zlib-dev \
@@ -104,7 +104,7 @@ RUN set -ex \
 #		--with-ldap \
 #		--with-tcl \
 #		--with-perl \
-#		--with-python \
+ 		--with-python \
 #		--with-pam \
 		--with-openssl \
 		--with-libxml \
